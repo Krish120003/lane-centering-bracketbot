@@ -35,7 +35,7 @@ Since RealSense cameras were limited in quantity, we opted for the webcam soluti
 
 After getting the data, we needed to navigate next. We researched some techniques like optical flow existed, but our team's limited experience made those techniques infeasible. The time constraints forced us to adopt, and we went with a Tesla-inspired approach: vision-based lane detection for autonomous navigation.
 
-We developed an OpenCV-based lane detection and centering system that identifies lanes marked by red plastic cups and maintains the bracketbot's position in the center. Using the provided MQTT implementation, we sent continuous angular and linear velocity commands to keep the bracketbot centered. The implementation details can be found in core/node_correct.py.
+We developed an OpenCV-based lane detection and centering system that identifies lanes marked by red plastic cups and maintains the bracketbot's position in the center. Using the provided MQTT implementation, we sent continuous angular and linear velocity commands to keep the bracketbot centered. The implementation details can be found in [core/node_correct.py](https://github.com/Krish120003/lane-centering-bracketbot/blob/main/core/node_correct.py).
 
 <video width="100%" controls>
         <source src="bracketbot_cv2_vision.mp4" type="video/mp4">
