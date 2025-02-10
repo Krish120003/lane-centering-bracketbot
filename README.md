@@ -18,10 +18,7 @@ One of the challenges of the hackathon was to be the first team to autonomously 
 
 Our team (and our bracketbot) won the challenge! We were the first to successfully drive the bracketbot from E6 to E3 autonomously by using a lane detection and centering implementation. Here is a time-lapse of our bracketbot driving from E6 to E3 at ~1:40 AM on February 9th, 2025:
 
-<video width="100%" controls>
-    <source src="https://github.com/Krish120003/lane-centering-bracketbot/raw/refs/heads/main/bracketbot_timelapse.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/85d02c7a-092b-40a0-8113-0feb504d22b4
 
 ## How?
 
@@ -37,10 +34,9 @@ After getting the data, we needed to navigate next. We researched some technique
 
 We developed an OpenCV-based lane detection and centering system that identifies lanes marked by red plastic cups and maintains the bracketbot's position in the center. Using the provided MQTT implementation, we sent continuous angular and linear velocity commands to keep the bracketbot centered. The implementation details can be found in [core/node_correct.py](https://github.com/Krish120003/lane-centering-bracketbot/blob/main/core/node_correct.py).
 
-<video width="100%" controls>
-        <source src="https://github.com/Krish120003/lane-centering-bracketbot/raw/refs/heads/main/bracketbot_cv2_vision.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/65078d01-22c6-442b-8ead-367feb1fb856
+
 
 ## Future Improvements
 
